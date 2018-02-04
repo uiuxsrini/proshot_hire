@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ProSot Hire</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Font icons-->
+  <link rel="stylesheet" href="css/custom-icons.css">
+  <!-- Google fonts - Roboto for copy, Playfair Display for headings-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/jqueryUI.css" media="screen" type="text/css" />
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon.png">
+
+
+</head>
+<body>
+  <!-- Top Bar -->
+  <div  class="top-bar d-none d-sm-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-3">
+
+        </div>
+        <div class="col-sm-8 col-md-9 text-right account-details">
+          <ul class="list-inline">
+            <li class="list-inline-item"><span>Welcome  </span><span id="displayName"></span></li>
+            <li class="list-inline-item" id="login"><a href="registration.html">Login/Registration</a></li>
+            <li class="list-inline-item" id="logout"> <a href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container"><a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="logo"></a>
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu <i class="fa fa-bars"></i></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto d-md-flex flex-md-row align-items-md-center">
+        <!--   <li class="nav-item active"><a id="navbarDropdown1" data-target="#" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Home<i class="fa fa-caret-down"></i></a>
+            <ul aria-labelledby="navbarDropdown1" class="dropdown-menu">
+              <li><a href="index.html" class="dropdown-item">Homepage 1</a></li>
+              <li><a href="index2.html" class="dropdown-item">Homepage 2</a></li>
+            </ul>
+          </li> -->
+          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="category.html" class="nav-link">Cameras</a></li>
+          <li class="nav-item"><a href="lens.html" class="nav-link">Lens</a></li>
+          <li class="nav-item"><a href="accessories.html" class="nav-link">Accessories</a></li>
+          <li class="nav-item "><a id="navbarDropdown1" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">T&C<i class="fa fa-caret-down"></i></a>
+            <ul aria-labelledby="navbarDropdown1" class="dropdown-menu">
+              <li><a href="tandc.html" class="dropdown-item">Terms & conditions </a></li>
+              <li><a href="privacy.html" class="dropdown-item">Privacy Policy</a></li>
+            </ul>
+          </li>
+          <!-- Multilevel dropdown    -->
+             <!--  <li class="dropdown dropdown-submenu"><a id="multileveldropdown1" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item">Multilevel dropdown<i class="fa fa-caret-right ml-2"></i></a>
+                <ul aria-labelledby="multileveldropdown1" class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Item 1</a></li>
+                  <li><a href="#" class="dropdown-item">Item 2</a></li>
+                  <li><a href="#" class="dropdown-item">Item 3         </a></li>
+                </ul>
+              </li>
+            </ul>
+          </li> 
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>-->
+          <li class="nav-item">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="cart.html" class="nav-link">
+                <div class="icon cart"><i class="icon-cart" ></i></div><span class="badge badge-danger d-lg-inline" style="font-size: 13px" id="myCart"> 0 </span>
+                &nbsp;<strong>CHECK OUT</strong></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="category-page">
+      <!-- Breadcrumb -->
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-uppercase"> <a href="index.html" class="text-primary">Home</a></li>
+          <li class="breadcrumb-item active text-uppercase">Cameras</li>
+        </ol>
+      </div>
+      <!-- Products-->
+      <section class="products p-t-small">
+        <div class="container">
+          <header>
+            <div class="row d-flex align-items-center">
+              <div class="col-md-6">
+                <h1 class="heading-line">Cameras</h1>
+              </div>
+              <div class="col-md-6">
+                <div class="filters d-flex justify-content-end">
+                  <select title="Brand" name="brand" class="filter-branselect form-control">
+                   <option value="canon">canon</option>
+                   <option value="nikon">nikon</option>
+                 </select>
+               </div>
+             </div>
+           </div>
+         </header>
+         <div id="site">               
+          <div class="row canon box" id="productsC">
+          </div>
+          <div class="row nikon box" id="productsN">
+          </div>
+          
+        </div>
+      </section>
+    </div>
+
+    <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="Message" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title">Message</h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <span id="messageModalLabel"></span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+            <span class="post-auth">
+                 <!--  <button type="submit" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="registeration.html">Register</button>
+                  <button type="submit" class="btn btn-success" data-dismiss="modal" data-toggle="modal" data-target="index.html">Login</button> -->
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Footer-->
+        <footer class="main-footer">
+         <!--  <div class="page-links">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <h3>Site Map</h3>
+                  <ul class="list-unstyled">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About Us</a></li>
+                    <li> <a href="#">Categories</a></li>
+                    <li> <a href="#">Privacy policy</a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <h3>Our Services</h3>
+                  <ul class="list-unstyled">
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                  <h3>Extras</h3>
+                  <ul class="list-unstyled">
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                    <li> <a href="#">Footer Link</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 details js-pull">
+                  <ul class="list-unstyled">
+                    <li class="d-flex align-items-center">
+                      <div class="icon"><i class="icon-delivery-truck"></i></div>
+                      <div class="text"> 
+                        <h3>Free Shipping Worldwide</h3>
+                        <p>On orders over $200</p>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div class="icon"><i class="icon-dollar-symbol"></i></div>
+                      <div class="text"> 
+                        <h3>30 days money back</h3>
+                        <p>Money back guarantee</p>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div class="icon"><i class="icon-phone-call"></i></div>
+                      <div class="text"> 
+                        <h3>Phone: 123-456-789</h3>
+                        <p>Contact with us</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="copyrights">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                 <p>&copy; 2018 <span class="text-primary">ProShot Hire. </span>All rights reserved.</p>
+               </div>
+           <!--  <div class="col-sm-6 text-right">
+              <p>Template by <a href="https://ondrejsvestka.cz" target="_blank">Ondrej Svestka</a></p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <style type="text/css">
+    li.price {
+      background: bisque;
+      line-height: 30px;
+      margin: 0 0 3px 0;
+    }
+    
+    .table-cart {
+      font-size: 14px;
+    }
+
+  </style>
+  <!-- Javascript files-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="js/firebase.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.cookie.js"> </script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.carousel2.thumbs.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/front.js"></script>
+  <script type="text/javascript" src="js/jquery.shop.js"></script>
+</script>
+</body>
+</html>

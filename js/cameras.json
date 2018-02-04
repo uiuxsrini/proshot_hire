@@ -1,0 +1,173 @@
+[
+  {
+    "id": "1",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-1.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "2",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-2.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "3",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-3.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "4",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-4.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "5",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-5.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "6",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-6.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "7",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-7.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "8",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-1.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "9",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-2.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "10",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-3.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "11",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-4.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "12",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-5.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "13",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-6.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "15",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-7.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "16",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-6.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "17",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-1.jpg",
+    "cost": {
+      "one": 1500,
+      "three": 900,
+      "seven": 750
+    }
+  },
+  {
+    "id": "14",
+    "modelName": "EOS 7D Mark II EF-S 18 135mm",
+    "imgUrl": "img/product-2.jpg",
+    "cost": {
+      "one":1500,
+      "three": 900,
+      "seven": 750    }
+  }
+]
+
+

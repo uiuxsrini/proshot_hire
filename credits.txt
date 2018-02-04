@@ -1,0 +1,36 @@
+// ===================================================
+//       PHOTOS
+// ===================================================
+- https://www.pexels.com/photo/dslr-camera-equipments-147462/
+- https://www.pexels.com/photo/black-nikon-dslr-camera-121557/
+- https://www.pexels.com/photo/black-camera-lens-28855/
+- https://www.pexels.com/photo/black-camera-lens-28855/
+- https://www.pexels.com/photo/black-camera-beside-black-eyeglasses-and-black-wrist-watch-63975/
+- https://www.pexels.com/photo/polaroid-supercolor-635-cmaera-191160/
+- https://www.pexels.com/photo/camera-lens-zoom-equipment-19671/
+- https://www.pexels.com/photo/black-camera-226243/
+- https://www.pexels.com/photo/lens-photography-equipment-141172/
+- Blog images by Death To Stock photo
+
+
+
+// ===================================================
+//       LOGO
+// ===================================================
+Demo logo by http://www.freepik.com/free-vector/collection-of-photography-logos_831325.htm#term=camera logo&page=1&position=4
+
+
+
+// ===================================================
+//       PLUGINS
+// ===================================================
+https://github.com/gijsroge/OwlCarousel2-Thumbs
+https://github.com/themicon/smoothscroll
+https://owlcarousel2.github.io/OwlCarousel2/index.html
+https://jqueryvalidation.org/
+
+// ===================================================
+//       CUSTOM ICON FONT
+// ===================================================
+- icons from http://www.flaticon.com/
+- icon font created with http://fontastic.me/

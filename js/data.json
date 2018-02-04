@@ -1,0 +1,358 @@
+{
+  "cameras": {
+    "canon": [
+      {
+        "id": "1",
+        "modelName": "CANON 5D MARK IV",
+        "imgUrl": "images/canon/CANON 5D MARK IV.jpg",
+        "cost": {
+          "one": 2600,
+          "three": 2400,
+          "seven": 2200
+        }
+      },
+      {
+        "id": "2",
+        "modelName": "CANON 5D MARK III",
+        "imgUrl": "images/canon/CANON 5D MARK III.jpg",
+        "cost": {
+          "one": 1700,
+          "three": 1500,
+          "seven": 1400
+        }
+      },
+      {
+        "id": "3",
+        "modelName": "CANON 6D CAMERA",
+        "imgUrl": "images/canon/CANON 6D CAMERA.jpg",
+        "cost": {
+          "one": 1500,
+          "three": 1300,
+          "seven": 1100
+        }
+      },
+      {
+        "id": "4",
+        "modelName": "CANON 7D CAMERA",
+        "imgUrl": "images/canon/CANON 7D CAMERA.jpg",
+        "cost": {
+          "one": 700,
+          "three": 600,
+          "seven": 500
+        }
+      },
+      {
+        "id": "5",
+        "modelName": "CANON 1D MARK IV",
+        "imgUrl": "images/canon/CANON 1D MARK IV.jpg",
+        "cost": {
+          "one": 1800,
+          "three": 1500,
+          "seven": 1300
+        }
+      },
+      {
+        "id": "6",
+        "modelName": "EOS 7D Mark II EF-S 18 135mm",
+        "imgUrl": "images/canon/EOS 7D Mark II EF-S 18 135mm.jpg",
+        "cost": {
+          "one": 1500,
+          "three": 900,
+          "seven": 750
+        }
+      }
+    ],
+    "nikon": [
+      {
+        "id": "7",
+        "modelName": "NIKON D750",
+        "imgUrl": "images/nikon/nikon_5300.png",
+        "cost": {
+          "one": 1500,
+          "three": 1300,
+          "seven": 1100
+        }
+      },
+      {
+        "id": "8",
+        "modelName": "NIKON D810",
+        "imgUrl": "images/nikon/nikon_D750.png",
+        "cost": {
+          "one": 1900,
+          "three": 1700,
+          "seven": 1500
+        }
+      },
+      {
+        "id": "9",
+        "modelName": "NIKON D7000",
+        "imgUrl": "images/nikon/nikon_D810.png",
+        "cost": {
+          "one": 700,
+          "three": 600,
+          "seven": 500
+        }
+      },
+      {
+        "id": "10",
+        "modelName": "NIKON 5300",
+        "imgUrl": "images/nikon/nikon_D7000.png",
+        "cost": {
+          "one": 600,
+          "three": 500,
+          "seven": 400
+        }
+      }
+    ]
+  },
+  "lens": {
+    "canon": [
+      {
+        "id": "11",
+        "modelName": "CANON 50MM 1.8",
+        "imgUrl": "images/canon/CANON 50MM 1.8.jpg",
+        "cost": {
+          "one": 250,
+          "three": 200,
+          "seven": 1775
+        }
+      },
+      {
+        "id": "12",
+        "modelName": "CANON 50MM 1.4",
+        "imgUrl": "images/canon/CANON 50MM 1.4.jpg",
+        "cost": {
+          "one": 500,
+          "three": 400,
+          "seven": 350
+        }
+      },
+      {
+        "id": "13",
+        "modelName": "CANON 100MM F/2.8 IS LENS",
+        "imgUrl": "images/canon/CANON 100MM F2.8 IS LENS.jpg",
+        "cost": {
+          "one": 600,
+          "three": 550,
+          "seven": 450
+        }
+      },
+      {
+        "id": "14",
+        "modelName": "CANON 24-105MM F/4 IS USM",
+        "imgUrl": "images/canon/canon-24-105-f4.jpg",
+        "cost": {
+          "one": 650,
+          "three": 550,
+          "seven": 450
+        }
+      },
+      {
+        "id": "15",
+        "modelName": "CANON 24-70 F/2.8 LII USM",
+        "imgUrl": "images/canon/CANON 24-70 F2.8 LII USM.jpg",
+        "cost": {
+          "one": 1100,
+          "three": 1000,
+          "seven": 900
+        }
+      },
+      {
+        "id": "16",
+        "modelName": "CANON 70-200MM F/2.8 IS II LENS",
+        "imgUrl": "images/canon/CANON 70-200MM F2.8 IS II LENS.jpg",
+        "cost": {
+          "one": 1200,
+          "three": 1100,
+          "seven": 1000
+        }
+      },
+      {
+        "id": "17",
+        "modelName": "CANON 300MM F/4 IS USM",
+        "imgUrl": "images/canon/CANON 300MM F4 IS USM.jpg",
+        "cost": {
+          "one": 700,
+          "three": 650,
+          "seven": 600
+        }
+      },
+      {
+        "id": "18",
+        "modelName": "CANON 1.4X III EXTENDER",
+        "imgUrl": "images/canon/CANON 1.4X III EXTENDER.jpg",
+        "cost": {
+          "one": 300,
+          "three": 250,
+          "seven": 200
+        }
+      },
+      {
+        "id": "19",
+        "modelName": "CANON 18-135MM F/3.5-5.6 IS",
+        "imgUrl": "images/canon/CANON 18-135MM F3.5-5.6 IS.jpg",
+        "cost": {
+          "one": 300,
+          "three": 250,
+          "seven": 200
+        }
+      },
+      {
+        "id": "20",
+        "modelName": "CANON 18-55MM F/3.5-5.6 IS STM",
+        "imgUrl": "images/canon/CANON 18-55MM F3.5-5.6 IS STM.jpg",
+        "cost": {
+          "one": 200,
+          "three": 150,
+          "seven": 125
+        }
+      },
+      {
+        "id": "21",
+        "modelName": "CANON 55-250MM F/4-5.6 IS II LENS",
+        "imgUrl": "images/canon/CANON 55-250MM F4-5.6 IS II LENS.jpg",
+        "cost": {
+          "one": 300,
+          "three": 250,
+          "seven": 200
+        }
+      }
+    ],
+    "nikon": [
+      {
+        "id": "22",
+        "modelName": "NIKOR 70-200MM F/2.8E AF-S FL ED VR LENS",
+        "imgUrl": "images/nikon/NIKOR 70-200MM F2.8E AF-S FL ED VR LENS.jpg",
+        "cost": {
+          "one": 1400,
+          "three": 1300,
+          "seven": 1200
+        }
+      },
+      {
+        "id": "23",
+        "modelName": "NIKON 50MM 1.8G AF-S",
+        "imgUrl": "images/nikon/NIKON 50MM 1.8G AF-S.jpg",
+        "cost": {
+          "one": 250,
+          "three": 200,
+          "seven": 150
+        }
+      },
+      {
+        "id": "24",
+        "modelName": "NIKON 50MM 1.4G AF-S",
+        "imgUrl": "images/nikon/NIKON 50MM 1.4G AF-S.jpg",
+        "cost": {
+          "one": 500,
+          "three": 450,
+          "seven": 400
+        }
+      },
+      {
+        "id": "25",
+        "modelName": "NIKON 85MM 1.8G F/1.8G AF-S",
+        "imgUrl": "images/nikon/NIKON 85MM 1.8G F1.8G AF-S.jpg",
+        "cost": {
+          "one": 600,
+          "three": 550,
+          "seven": 500
+        }
+      },
+      {
+        "id": "26",
+        "modelName": "NIKON 24-120MM F/4G IF AF-S VR",
+        "imgUrl": "images/nikon/NIKON 24-120MM F4G IF AF-S VR.jpg",
+        "cost": {
+          "one": 650,
+          "three": 600,
+          "seven": 550
+        }
+      },
+      {
+        "id": "27",
+        "modelName": "TAMRON 150-600 F/5-6.3 DI",
+        "imgUrl": "images/nikon/TAMRON 150-600 F5-6.3 DI.jpg",
+        "cost": {
+          "one": 1000,
+          "three": 900,
+          "seven": 800
+        }
+      }
+    ]
+  },
+  "accessories": {
+    "items": [
+      {
+        "id": "28",
+        "modelName": "CANON 600EX RT FLASH",
+        "imgUrl": "images/acc/CANON 600EX RT FLASH.jpg",
+        "cost": {
+          "one": 600,
+          "three": 550,
+          "seven": 500
+        }
+      },
+      {
+        "id": "29",
+        "modelName": "NISSIN DI622 FLASH",
+        "imgUrl": "images/acc/NISSIN DI622 FLASH.jpg",
+        "cost": {
+          "one": 400,
+          "three": 350,
+          "seven": 300
+        }
+      },
+      {
+        "id": "30",
+        "modelName": "ELINCHROM FRX-400",
+        "imgUrl": "images/acc/ELINCHROM FRX-400.jpg",
+        "cost": {
+          "one": 1000,
+          "three": 900,
+          "seven": 800
+        }
+      },
+      {
+        "id": "31",
+        "modelName": "MANFROTTO TRIPOD&HEAD",
+        "imgUrl": "images/acc/MANFROTTO TRIPOD&HEAD.jpg",
+        "cost": {
+          "one": 400,
+          "three": 350,
+          "seven": 300
+        }
+      },
+      {
+        "id": "32",
+        "modelName": "MONOPOD",
+        "imgUrl": "images/acc/MONOPOD.jpg",
+        "cost": {
+          "one": 250,
+          "three": 200,
+          "seven": 175
+        }
+      },
+      {
+        "id": "33",
+        "modelName": "NIKON SB-700 SPEEDLIGHT",
+        "imgUrl": "images/acc/NIKON SB-700 SPEEDLIGHT.jpg",
+        "cost": {
+          "one": 500,
+          "three": 450,
+          "seven": 400
+        }
+      },
+      {
+        "id": "34",
+        "modelName": "NIKON SB-910 SPEEDLIGHT",
+        "imgUrl": "images/acc/NIKON SB-910 SPEEDLIGHT.jpg",
+        "cost": {
+          "one": 600,
+          "three": 550,
+          "seven": 500
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+/*=======================================================
+       Shopping cart
+  ======================================================= */
+
+.cart-page {
+    section {
+        padding: 50px 0 100px;
+    }
+
+    .arrow {
+        margin: 50px auto;
+        span {
+            display: inline-block;
+            transform-origin: bottom left;
+            @include size(50px, 1px);
+            background: #888;
+            &:first-of-type {
+                transform-origin: bottom right;
+                transform: rotate(25deg);
+            }
+            &:last-of-type {
+                transform: rotate(-25deg);
+            }
+        }
+    }
+}
+
+section.cart {
+    padding-bottom: 0 ;
+
+    .cart-heading {
+        background: $gray-900;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .cart-body {
+        padding: 10px 0 0 ;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+        font-family: $font-family-sans-serif;
+
+        a {
+            color: #333;
+        }
+
+        .cart-item {
+            padding: 30px;
+            border-bottom: 1px solid #eee;
+        }
+    }
+
+    .product-details {
+        padding: 0 20px;
+
+        h3 {
+            font-weight: 400;
+        }
+    }
+
+    .product-img {
+        max-width: 150px;
+    }
+
+    .total-price {
+        margin-top: 20px;
+
+        span, strong {
+            font-family: $font-family-sans-serif;
+            font-weight: 700;
+        }
+    }
+
+    .product-quantity {
+        .minus-btn, .plus-btn {
+            @include square(35px, null, #555, center);
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .minus-btn {
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px
+        }
+        .plus-btn {
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px
+        }
+       input {
+            @include size(60px, 35px);
+            font-size: 1em;
+            font-weight: 300;
+            color: #555;
+            text-align: center;
+            outline: none;
+            border: 1px solid #ccc;
+            border-left: none;
+            border-right: none;
+            background: none;
+        }
+    }
+
+    a {
+        &:hover, &:focus {
+            color: $brand-primary;
+            text-decoration: none;
+        }
+    }
+}
+/* =======================================================
+       Shipping Address
+   ======================================================= */
+section.shipping {
+    padding: 0;
+
+    form {
+        h3 {
+            margin: 30px 0;
+        }
+
+    }
+    .bootstrap-select {
+       position: relative;
+       height: 60px;
+       button {
+          height: auto !important;
+       }
+    }
+
+    .shipping-alternative {
+        display: none;
+    }
+
+    .payment-cards {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* MEDIAQUERIES ----------------------------------------- */
+@media (max-width: 768px) {
+    section.cart {
+       > .container {
+          width: 100%;
+
+          overflow: scroll !important;
+
+          .cart-holder {
+             min-width: 768px;
+          }
+       }
+
+       .product-quantity input {
+           width: 40px;
+       }
+    }
+}

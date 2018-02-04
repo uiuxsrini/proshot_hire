@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ProSot Hire</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Font icons-->
+  <link rel="stylesheet" href="css/custom-icons.css">
+  <!-- Google fonts - Roboto for copy, Playfair Display for headings-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      </head>
+      <body>
+        <!-- Top Bar -->
+        <div class="top-bar d-none d-sm-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 col-md-3">
+
+              </div>
+              <div class="col-sm-8 col-md-9 text-right account-details">
+                <ul class="list-inline">
+             <!--  <li class="list-inline-item"> <a href="#">Register</a></li>
+               <li class="list-inline-item"><a href="#">Order History</a></li> -->
+               <li class="list-inline-item"><a data-toggle="modal" data-target="#loginModal" >Login Here</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-md">
+      <div class="container"><a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="logo"></a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu <i class="fa fa-bars"></i></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto d-md-flex flex-md-row align-items-md-center">
+           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+           <li class="nav-item"><a href="category.html" class="nav-link">Cameras</a></li>
+           <li class="nav-item"><a href="lens.html" class="nav-link">Lens</a></li>
+           <li class="nav-item"><a href="accessories.html" class="nav-link">Accessories</a></li>
+           <li class="nav-item "><a id="navbarDropdown1" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">T&C<i class="fa fa-caret-down"></i></a>
+            <ul aria-labelledby="navbarDropdown1" class="dropdown-menu">
+              <li><a href="tandc.html" class="dropdown-item">Terms & conditions </a></li>
+              <li><a href="privacy.html" class="dropdown-item">Privacy Policy</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+              <!-- <ul class="list-inline">
+                <li class="list-inline-item"><a id="search" href="#" class="nav-link">
+                  <div class="icon search"><i class="icon-magnifying-glass"></i></div></a></li>
+                  <li class="list-inline-item"><a href="cart.html" class="nav-link">
+                    <div class="icon cart"><i class="icon-cart"></i></div><span class="d-md-none d-lg-inline"><span class="no">2</span>items</span></a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="home-page">
+          <!-- Registration Section-->
+          <div class="arrow d-flex justify-content-center"><span></span><span></span></div>
+          <section class="shipping">
+            <div class="container">
+              <div class="form-holder">
+                <form id="regform" action="#" method="post" class="custom-form">
+                  <input type="hidden" name="form-name" value="shipping-address-form">
+                  <!-- Main Shipping Address -->
+                  <div class="shipping-main">
+                    <h3 class="heading-line">Please furnish the following details for registration</h3>
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerFirstName" name="firstname" placeholder="First Name" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerLastName" name="lastname" placeholder="Last Name" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="email" id="registerEmail" name="email" placeholder="Email Id (Your Email ID will be your username)" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="password" id="registerPassword" name="password" placeholder="Password" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="password" id="registerConfirmPassword" name="confirm password" placeholder="Confirm Password" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerMobile" name="number" placeholder="Phone Number" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-12 form-group">
+                        <input type="text" id="registerAddress" name="address-1" placeholder="Current Address" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerCity" name="city" placeholder="City" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerCode" name="postalcode" placeholder="Postal Code" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="text" id="registerState" name="state" placeholder="State" required="" class="form-control">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <select name="country" title="Country" class="country form-control">
+                          <option value=""> </option>
+                          <option value="AX">Åland Islands</option>
+                          <option value="AL">Albania</option>
+                          <option value="DZ">Algeria</option>
+                          <option value="AS">American Samoa</option>
+                          <option value="AD">Andorra</option>
+                          <option value="AO">Angola</option>
+                          <option value="AI">Anguilla</option>
+                          <option value="AQ">Antarctica</option>
+                          <option value="AG">Antigua and Barbuda</option>
+                          <option value="AR">Argentina</option>
+                          <option value="AM">Armenia</option>
+                          <option value="AW">Aruba</option>
+                          <option value="AU">Australia</option>
+                          <option value="AT">Austria</option>
+                          <option value="AZ">Azerbaijan</option>
+                          <option value="BS">Bahamas</option>
+                          <option value="BH">Bahrain</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <p><span class="col-sm-6">ID Proof (Scan Copy)</span> </p>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="file" id="idProof" style="line-height:30px!important; border-radius: 30px!important;" required="">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <p><span <span class="col-sm-6">Address Proof (Scan Copy)</span> </p>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input type="file" id="addProof" style="line-height:30px!important; border-radius: 30px!important;" required="">
+                      </div> 
+                    </div>
+                  </div>
+                  <button id="doRegister" type="submit" class="oder-now btn btn-unique btn-lg">Register Now <i class="icon-shipping-truck"></i></button>
+                </div>             
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- message modal -->
+      <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="Message" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h6 class="modal-title">Message</h6>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <span id="messageModalLabel"></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              <span class="post-auth">
+                 <!--  <button type="submit" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="registeration.html">Register</button>
+                  <button type="submit" class="btn btn-success" data-dismiss="modal" data-toggle="modal" data-target="index.html">Login</button> -->
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="loginModalLabel">Login</h4>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Email:</label>
+                  <input type="text" class="form-control" id="loginEmail">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="control-label">Password:</label>
+                  <input type="password" class="form-control" id="loginPassword">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="doLogin">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer-->
+        <footer class="main-footer">
+
+          <div class="copyrights">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <p>&copy; 2018 <span class="text-primary">ProShot Hire. </span>All rights reserved.</p>
+                </div> 
+           <!--  <div class="col-sm-6 text-right">
+              <p><a href=""></a>Frontendfolks</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+    <!--  <script src="js/firebase.js"></script> -->
+  </body>
+  </html>

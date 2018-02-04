@@ -1,0 +1,404 @@
+i.style-toggle-btn {
+  position: fixed;
+  z-index: 55555;
+  top: 100px;
+  right: 0;
+  color: #FFF;
+  background: #777878 /9;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 3px 0 0 3px;
+  cursor: pointer;
+}
+
+
+
+.style-toggle {
+  position: fixed;
+  z-index: 55555;
+  top: 100px;
+  right: 0;
+  background: #777878 /9;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 3px 0 0 3px;
+}
+.style-toggle > i {
+  color: #FFF;
+  cursor: pointer;
+}
+.style-toggle ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.style-toggle ul > li {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #FFF;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+.style-toggle ul > li.green {
+  background: #27ae60;
+}
+.style-toggle ul > li.blue {
+  background: #3498db;
+}
+.style-toggle ul > li.red {
+  background: #e74c3c;
+}
+.style-toggle ul > li.amethyst {
+  background: #9b59b6;
+}
+
+/* ===== Style Colors ===== */
+
+/* Text Colors */
+
+.body-green .text-color {
+  color: #27ae60;
+}
+.body-blue .text-color {
+  color: #3498db;
+}
+.body-red .text-color {
+  color: #e74c3c;
+}
+.body-amethyst .text-color {
+  color: #9b59b6;
+}
+
+/* Link Colors */
+
+.body-green a {
+  color: #27ae60;
+}
+.body-blue a {
+  color: #3498db;
+}
+.body-red a {
+  color: #e74c3c;
+}
+.body-amethyst a {
+  color: #9b59b6;
+}
+
+/* Border Colors */
+
+.body-green .border-color {
+  border-color: #27ae60;
+}
+.body-blue .border-color {
+  border-color: #3498db;
+}
+.body-red .border-color {
+  border-color: #e74c3c;
+}
+.body-amethyst .border-color {
+  border-color: #9b59b6;
+}
+
+/* Background Colors */
+
+.body-green .background-color {
+  background-color: #27ae60;
+}
+.body-blue .background-color {
+  background-color: #3498db;
+}
+.body-red .background-color {
+  background-color: #e74c3c;
+}
+.body-amethyst .background-color {
+  background-color: #9b59b6;
+}
+.body-green .bg-hover-color:hover {
+  background-color: #229652;
+}
+.body-blue .bg-hover-color:hover {
+  background-color: #2980b9;
+}
+.body-red .bg-hover-color:hover {
+  background-color: #c0392b;
+}
+.body-amethyst .bg-hover-color:hover {
+  background-color: #8e44ad;
+}
+
+/* Logo */
+
+.body-green .logo:after {
+  color: #27ae60;
+}
+.body-blue .logo:after {
+  color: #3498db;
+}
+.body-red .logo:after {
+  color: #e74c3c;
+}
+.body-amethyst .logo:after {
+  color: #9b59b6;
+}
+
+/* Buttons */
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .bnt-danger, .btn-color {
+  color: #FFF !important;
+}
+.btn-default {
+  color: #333 !important;
+}
+.body-green .btn-link:hover {
+  color: #27ae60;
+}
+.body-blue .btn-link:hover {
+  color: #3498db;
+}
+.body-red .btn-link:hover {
+  color: #e74c3c;
+}
+.body-amethyst .btn-link:hover {
+  color: #9b59b6;
+}
+.body-green .btn-color {
+  background-color: #27ae60;
+  border-color: #229652;
+}
+.body-green .btn-color:hover,
+.body-green .btn-color:focus,
+.body-green .btn-color:active {
+  background-color: #229652;
+  border-color: #1A7440;
+}
+.body-blue .btn-color {
+  background-color: #3498db;
+  border-color: #2980b9;
+}
+.body-blue .btn-color:hover,
+.body-blue .btn-color:focus,
+.body-blue .btn-color:active {
+  background-color: #2980b9;
+  border-color: #1D5C86;
+}
+.body-red .btn-color {
+  background-color: #e74c3c;
+  border-color: #c0392b;
+}
+.body-red .btn-color:hover,
+.body-red .btn-color:focus,
+.body-red .btn-color:active {
+  background-color: #c0392b;
+  border-color: #962E22;
+}
+
+.body-amethyst .btn-color {
+  background-color: #9b59b6;
+  border-color: #8e44ad;
+}
+.body-amethyst .btn-color:hover,
+.body-amethyst .btn-color:focus,
+.body-amethyst .btn-color:active {
+  background-color: #8e44ad;
+  border-color: #6C3384;
+}
+
+#login-modal .modal-dialog {
+    width: 350px;
+}
+
+#login-modal input[type=text], input[type=password] {
+  margin-top: 10px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+/*.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}*/
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+#upload-file-selector {
+    display:none;   
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+/* Customize the label (the contai) */
+.contai {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.contai input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.contai:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.contai input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.contai input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.contai .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+

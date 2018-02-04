@@ -1,0 +1,36 @@
+
+/*
+=========================================
+=========================================
+
+Photo E-commerce Template
+
+=========================================
+========================================= */
+
+
+// functions.scss - Bootstrap functions 
+@import "modules/functions";
+// variables-custom.scss - to change colour variant, rounded corners, etc.
+@import "modules/variables-custom";
+// bootstrap mixins
+@import "modules/mixins";
+// custom mixins
+@import "modules/mixins-custom";
+// general styling
+@import "modules/general";
+// Category page styling
+@import "modules/category-page";
+// Product detail styling
+@import "modules/detail-page";
+// Cart page styling
+@import "modules/cart-page";
+// Contact
+@import "modules/contact-page";
+// Blog pages
+@import "modules/blog-page";
+// demo styling
+@import "modules/demo";
+
+// bootstrap base stylesheet overrides
+@import "theme";

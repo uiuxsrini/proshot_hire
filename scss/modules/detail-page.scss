@@ -1,0 +1,193 @@
+/* =======================================================
+       Item Details
+   ======================================================= */
+section.item-details {
+
+    .item {
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .owl-thumbs {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    button.owl-thumb-item {
+        @include size(60px, 50px);
+        overflow: hidden;
+        opacity: 0.2;
+        border: none;
+        background: none;
+        outline: none;
+        margin: 0 5px;
+        cursor: pointer;
+
+        &.active {
+            opacity: 1;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .price {
+        margin-top: 20px;
+        font-size: 1.4em;
+        font-weight: 300;
+
+        .rate {
+            margin-right: 20px;
+            font-size: 0.65em;
+        }
+
+        li {
+            padding: 0;
+            margin: 0;
+        }
+        span {
+            color: #999;
+            font-size: 0.6em;
+            text-transform: uppercase;
+            line-height: 23px;
+        }
+    }
+
+    .model {
+        margin-top: 20px;
+        font-size: 0.95em;
+        color: #444;
+
+        li {
+            padding: 5px 0;
+        }
+        span {
+            color: #999;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
+    .description {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #777;
+        font-weight: 300;
+        line-height: 1.7em;
+    }
+
+    .brief {
+        font-weight: 300;
+        line-height: 1.6em;
+        font-weight: 300;
+        color: #777;
+        margin: 50px 0;
+    }
+
+    .product-quantity {
+        margin-bottom: 10px;
+        .minus-btn, .plus-btn {
+            @include square(35px, null, #555, center);
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .minus-btn {
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px
+        }
+        .plus-btn {
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px
+        }
+       input {
+            @include size(80px, 35px);
+            font-size: 1em;
+            font-weight: 300;
+            color: #555;
+            text-align: center;
+            outline: none;
+            border: 1px solid #ccc;
+            border-left: none;
+            border-right: none;
+            background: none;
+        }
+    }
+
+    select {
+        border-radius: 50px;
+        font-size: 0.95em;
+        color: #777;
+        width: auto;
+        border-color: #ccc;
+    }
+
+    .CTAs {
+        margin-top: 30px;
+        i {
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+
+    .specifications {
+        margin-top: 50px;
+
+        .title {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+            font-size: 0.95em;
+            color: #333;
+        }
+        .value {
+            color: #777;
+            font-weight: 300;
+            font-size: 0.92em;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+    }
+}
+
+
+/* =======================================================
+       Related Items
+   ======================================================= */
+section.related-items {
+    @extend .products;
+    padding-top: 0;
+}
+
+
+/*  MEDIAQUERIES ----------------------------------------- */
+@media (max-width: 992px) {
+    section.related-items {
+        div[class*="col-"] {
+
+            &:last-of-type, &:nth-of-type(2n+2) {
+                border-right: none;
+            }
+            &:nth-of-type(3) {
+                border-right: 1px solid #eee !important;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    section.related-items {
+        div[class*="col-"] {
+            border-right: none !important;
+            &:nth-of-type(3) {
+                border-right: none !important;
+            }
+        }
+    }
+}

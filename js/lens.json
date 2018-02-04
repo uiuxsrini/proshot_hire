@@ -1,0 +1,174 @@
+[
+  {
+    "id": "1",
+    "modelName": "Chocolate Beverage",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "2",
+    "modelName": "Hot Chocolate",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "3",
+    "modelName": "Peppermint Hot Chocolate",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "4",
+    "modelName": "Salted Caramel Hot Chocolate",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "5",
+    "modelName": "White Hot Chocolate",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "6",
+    "modelName": "Espresso Beverage",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "7",
+    "modelName": "Caffe Americano",
+    "imgUrl": "6",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "8",
+    "modelName": "Caffe Latte",
+    "imgUrl": "6",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "9",
+    "modelName": "Caffe Mocha",
+    "imgUrl": "6",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "10",
+    "modelName": "Cappuccino",
+    "imgUrl": "6",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "11",
+    "modelName": "Pumpkin Spice Latte",
+    "imgUrl": "6",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "12",
+    "modelName": "Frappuccino",
+    "imgUrl": "1",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "13",
+    "modelName": "Caffe Vanilla Frappuccino",
+    "imgUrl": "2",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "15",
+    "modelName": "450 calories",
+    "imgUrl": "3",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "16",
+    "modelName": "16g fat",
+    "imgUrl": "3",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "17",
+    "modelName": "13g protein",
+    "imgUrl": "3",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  },
+  {
+    "id": "14",
+    "modelName": "Caffe Vanilla Frappuccino Light",
+    "imgUrl": "2",
+    "cost": {
+      "1 day": "1500",
+      "3+ days": "900",
+      "7+ days": "750"
+    }
+  }
+]
+
+

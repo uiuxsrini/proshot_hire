@@ -1,0 +1,15 @@
+{
+  "contactdb" : {
+  "contacts": [{
+    "contactId": {
+      "name": "Time to Hack",
+      "email": "the.time2hack@gmail.com",
+      "location": {
+        "city": "Internet",
+        "state": "Active Connection",
+        "zip": "000000"
+      }
+    }
+  }]
+}
+}
